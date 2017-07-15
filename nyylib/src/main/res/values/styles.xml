@@ -1,0 +1,25 @@
+<resources>
+        <!--materialDialog按钮的style-->
+    <style name="ActionButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/action_button_height</item>
+        <item name="android:minWidth">@dimen/action_button_min_width</item>
+        <item name="android:paddingLeft">@dimen/action_button_padding_horizontal</item>
+        <item name="android:paddingRight">@dimen/action_button_padding_horizontal</item>
+        <item name="android:background">@drawable/button</item>
+        <item name="android:textSize">@dimen/action_button_text_size</item>
+    </style>
+    <style name="PopupAnimaFade" parent="android:Animation">
+           <item name="android:windowEnterAnimation">@anim/fade_in_center</item>
+           <item name="android:windowExitAnimation">@anim/fade_out_center</item>
+    </style>
+    <!--通用刷新控件属性-->
+    <declare-styleable name="DWRefreshLayout">
+        <attr name="refresh_style">
+            <enum name="style_below" value="1"/>
+            <enum name="style_default" value="2"/>
+            <enum name="style_material" value="3"/>
+        </attr>
+
+    </declare-styleable>
+</resources>

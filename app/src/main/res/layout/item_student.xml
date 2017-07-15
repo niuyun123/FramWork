@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="match_parent">
+     <TextView
+         android:id="@+id/tvname"
+         android:text="姓名:张三\n 电话号码:15281716113"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tvclass"
+        android:layout_marginTop="8dp"
+        android:text="数学与信息学院.信息系统与信息管理12班"
+        android:layout_below="@id/tvname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+     <TextView
+         android:id="@+id/tvguider"
+         android:layout_marginTop="8dp"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_below="@id/tvclass"
+         android:text="教导老师:潘大致"/>
+      <TextView
+          android:id="@+id/tvteachers"
+          android:text="任课老师:\n 张里 \n李四 \n王麻子"
+          android:layout_marginTop="8dp"
+          android:layout_below="@id/tvguider"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="40dp"
+        android:layout_below="@id/tvguider"
+        android:layout_toRightOf="@id/tvteachers"
+        android:id="@+id/tvcourses"
+        android:text="所选课程:\n高数 \n概率论 \n 管理学"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

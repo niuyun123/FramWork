@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!--可以上下弹出的dialog-->
+  <color name="dialogplus_card_shadow">#D4D4D4</color>
+  <color name="dialogplus_black_overlay">#60000000</color>
+  <!--简单的dialog-->
+  <color name="card_background">#ffffff</color>
+  <color name="card_shadow">#10000000</color>
+  <color name="lite_blue">#ff359ff2</color>
+  <color name="window_background">#00000000</color>
+  <color name="black_de">#DE000000</color>
+</resources>

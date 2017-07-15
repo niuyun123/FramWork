@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ehome.niuyunyang.framework.testlist.Main6Activity">
+   <com.ehome.niuyunyang.nyylib.widget.pullrefreshview.AbPullToRefreshView
+       android:id="@+id/pulltorefresh"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+       <ScrollView
+           android:id="@+id/scrollView"
+           android:background="#DFDFDF"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+           <TextView
+               android:scaleType="centerCrop"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textSize="28sp"
+               android:text="asdfasdf
+               asdf
+               asdf
+               asdf
+               asdf
+               adsf
+               asdf
+               asdf
+               adsfasdfa
+               asdfasdfasdf
+               asdfffffffffffffffff"
+               android:background="@drawable/ic_google_maps_icon"/>
+       </ScrollView>
+   </com.ehome.niuyunyang.nyylib.widget.pullrefreshview.AbPullToRefreshView>
+</RelativeLayout>
