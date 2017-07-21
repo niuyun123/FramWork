@@ -2,9 +2,30 @@
     package="com.ehome.niuyunyang.nyylib">
     <uses-permission android:name="android.permission.INTERNET"></uses-permission>
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
     <application android:allowBackup="true" android:label="@string/app_name"
         android:supportsRtl="true">
-
+            <receiver android:name=".util.netstatus.NetStateReceiver">
+                <intent-filter>
+                    <action android:name="android.net.conn.CONNECTIVITY_CHANGE"></action>
+                    <action android:name="com.ehome.niuyunyang.nyylib.net.conn.CONNECTIVITY_CHANGE"></action>
+                </intent-filter>
+            </receiver>
+        <activity
+            android:name=".util.easypermissions.AppSettingsDialogHolderActivity"
+            android:exported="false"
+            android:label=""
+            android:theme="@style/EasyPermissions.Transparent"/>
+        <provider
+            android:name=".photopicker.utils.PhotoFileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/__picker_provider_paths"/>
+        </provider>
+        <activity android:name=".photopicker.PhotoPickerActivity" android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
+        <activity android:name=".photopicker.PhotoPagerActivity"   android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
     </application>
 
 </manifest>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ehome.niuyunyang.framework.testEventBus.Main12Activity">
+        <Button
+            android:id="@+id/bttext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="发送消息"
+            android:onClick="sendmessage"/>
+        <ProgressBar
+            android:id="@+id/progress"
+            android:layout_centerInParent="true"
+            style="@style/Base.Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+</RelativeLayout>

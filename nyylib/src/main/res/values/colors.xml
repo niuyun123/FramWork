@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+  <color name="colorPrimary">#3F51B5</color>
+  <color name="colorPrimaryDark">#303F9F</color>
+  <color name="colorPrimaryDarkTrans">#CCf57257</color>
+  <color name="colorAccent">#FF4081</color>
+  <color name="default_image_background">#FFDEDEDE</color>
+  <color name="navigationBarColor">#f46444</color>
   <!--可以上下弹出的dialog-->
   <color name="dialogplus_card_shadow">#D4D4D4</color>
   <color name="dialogplus_black_overlay">#60000000</color>
@@ -9,4 +15,17 @@
   <color name="lite_blue">#ff359ff2</color>
   <color name="window_background">#00000000</color>
   <color name="black_de">#DE000000</color>
+  <!--图片挑选器-->
+  <color name="__picker_pager_bg">#CA000000</color>
+  <color name="__picker_selected_bg">#44000000</color>
+  <color name="__picker_black_40">#282828</color>
+  <color name="__picker_common_primary">#f3f3f3</color>
+
+  <color name="__picker_text_40">#282828</color>
+  <color name="__picker_text_80">#505050</color>
+  <color name="__picker_text_120">#787878</color>
+  <color name="__picker_item_photo_border_selected">#ff99cc00</color>
+  <color name="__picker_item_photo_border_n">#33ffffff</color>
+
+
 </resources>

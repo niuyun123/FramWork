@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/x10"
+    tools:context="com.ehome.niuyunyang.framework.testQRcode.Main17Activity">
+   <ImageView
+       android:id="@+id/ivchinese"
+       android:layout_width="@dimen/x160"
+       android:layout_height="@dimen/x160" />
+    <ImageView
+        android:layout_alignParentRight="true"
+        android:id="@+id/ivenglish"
+        android:layout_width="@dimen/x160"
+        android:layout_height="@dimen/x160" />
+    <ImageView
+        android:layout_marginTop="@dimen/x10"
+        android:layout_below="@id/ivchinese"
+        android:id="@+id/ivchineselog"
+        android:layout_width="@dimen/x160"
+        android:layout_height="@dimen/x160" />
+    <ImageView
+        android:layout_marginTop="@dimen/x10"
+        android:layout_below="@id/ivenglish"
+        android:layout_alignParentRight="true"
+        android:id="@+id/ivenglishlog"
+        android:layout_width="@dimen/x160"
+        android:layout_height="@dimen/x160" />
+    <LinearLayout
+        android:layout_below="@id/ivchineselog"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x60">
+        <Button
+            android:id="@+id/tvchinese"
+            android:text="识别中文"
+            android:background="@drawable/_loading_layout_button"
+            android:layout_marginRight="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/tvenglish"
+            android:background="@drawable/_loading_layout_button"
+            android:layout_marginRight="8dp"
+            android:text="识别英文"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/tvchineselog"
+            android:background="@drawable/_loading_layout_button"
+            android:layout_marginRight="8dp"
+            android:text="识别中文2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/tvenglishlog"
+            android:background="@drawable/_loading_layout_button"
+            android:text="识别英文2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</RelativeLayout>

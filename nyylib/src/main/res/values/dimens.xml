@@ -10,4 +10,9 @@
   <dimen name="action_button_text_size">14sp</dimen>
   <dimen name="action_button_min_width">56dp</dimen>
   <dimen name="action_button_padding_horizontal">4dp</dimen>
+<!--图片挑选器各个尺寸-->
+  <dimen name="__picker_iwf_actionBarSize">48dip</dimen>
+  <dimen name="__picker_item_photo_size">80dip</dimen>
+  <dimen name="__picker_item_camera_size">80dip</dimen>
+  <dimen name="__picker_item_directory_height">80dp</dimen>
 </resources>
