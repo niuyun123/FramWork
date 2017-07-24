@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ehome.niuyunyang.nyylib.widget.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ehome.niuyunyang.framework.testtimepicker.Main20Activity"
+    >
+    <TextView
+        android:id="@+id/tvpickertime"
+        android:text="挑选时间"
+        android:gravity="center"
+        android:background="@drawable/_loading_layout_button"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        app:layout_heightPercent="40%h"/>
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/tvpickertime"
+        android:id="@+id/tvpickerarea"
+        android:text="挑选地址"
+        android:gravity="center"
+        android:background="@drawable/_loading_layout_button"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        app:layout_heightPercent="20%h"/>
+
+</com.ehome.niuyunyang.nyylib.widget.percent.PercentRelativeLayout>

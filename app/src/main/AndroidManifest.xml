@@ -91,7 +91,13 @@
         <activity
             android:name=".testQRcode.Main18Activity"
             android:exported="true" />
-        <activity android:name=".testPhoterpicker.Main19Activity" android:exported="true"></activity>
+        <activity
+            android:name=".testPhoterpicker.Main19Activity"
+            android:exported="true" />
+        <activity
+            android:name=".testtimepicker.Main20Activity"
+            android:exported="true" />
+        <activity android:name=".testtimepicker.Main21Activity" android:exported="true"></activity>
     </application>
 
 </manifest>
